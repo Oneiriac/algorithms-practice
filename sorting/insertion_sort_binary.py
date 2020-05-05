@@ -25,7 +25,7 @@ def insertion_sort_binary(A):
     Time complexity, average case: O(n^2)
         - O(n*log n) comparisons, O(n^2) swaps
     Time complexity, best case: O(n)
-    Aux. space complexity: O(1) (in-place)
+    Aux. space: O(1) (in-place)
     """
     n = len(A)
     for i in range(1, n):

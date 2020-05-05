@@ -7,7 +7,7 @@ def insertion_sort(A):
     Time complexity, worst case: O(n^2)
     Time complexity, average case: O(n^2)
     Time complexity, best case: O(n)
-    Aux. space complexity: O(1) (in-place)
+    Aux. space: O(1) (in-place)
     """
     n = len(A)
     for i in range(1, n):

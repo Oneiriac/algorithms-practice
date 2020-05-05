@@ -27,7 +27,7 @@ def merge_sort(A):
     Time complexity, worst case: O(n*log n)
     Time complexity, average case: O(n*log n)
     Time complexity, best case: O(n)
-    Aux. space complexity: O(n)
+    Aux. space: O(n)
     """
     if len(A) <= 1:
         return A

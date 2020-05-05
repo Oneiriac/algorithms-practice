@@ -8,7 +8,7 @@ def heap_sort(A):
     Time complexity, worst case: O(n*log n)
     Time complexity, average case: O(n*log n)
     Time complexity, best case: O(n*log n)
-    Aux. space complexity: O(1) (in-place)
+    Aux. space: O(1) (in-place)
     """
     n = len(A)
     heapify(A)
