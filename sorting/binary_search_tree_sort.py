@@ -4,6 +4,8 @@ from tests import test
 from typing import TypeVar, Generic, Optional, List
 from abc import abstractmethod
 
+T = TypeVar('T')
+
 
 def bst_sort(A):
     """
@@ -21,9 +23,6 @@ def bst_sort(A):
     # Sort by performing in-order traversal
     result = root.in_order()
     return result
-
-
-T = TypeVar('T')
 
 
 class BinaryTree(Generic[T]):
